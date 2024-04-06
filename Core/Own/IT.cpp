@@ -42,7 +42,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
     if (htim == &htim2){
         left.GetPos();
         print(&huart2,"@%hd@%d@%hd@%hd\n",left.speed,left.real,left.pos,left.last_pos);
-        if (myabs(left.real - target)<3)
+        if (myabs(left.real - target)<=3)
             left.SetPwm(0);
         else
             left.SetPwm(speed.AddPid(left,angle.PosPid(left,target)));

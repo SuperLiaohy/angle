@@ -2616,29 +2616,29 @@ LOAD d:/clion_stm32/gcc_arm_none_eabi/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/
 LOAD d:/clion_stm32/gcc_arm_none_eabi/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD d:/clion_stm32/gcc_arm_none_eabi/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x13d03
- .debug_info    0x00000000      0xe83 CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj
- .debug_info    0x00000e83      0xf7b CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj
- .debug_info    0x00001dfe      0xbcd CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj
- .debug_info    0x000029cb      0xd96 CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj
- .debug_info    0x00003761      0x846 CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj
- .debug_info    0x00003fa7      0x2f4 CMakeFiles/angle.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000429b      0x211 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x000044ac      0x9c9 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00004e75      0x7af CMakeFiles/angle.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00005624      0x174 CMakeFiles/angle.elf.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00005798      0x248 CMakeFiles/angle.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x000059e0     0x10b2 CMakeFiles/angle.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x00006a92      0xa09 CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x0000749b       0x22 CMakeFiles/angle.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_info    0x000074bd      0x7a8 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00007c65      0xd8a CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x000089ef      0x84b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x0000923a      0x66f CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x000098a9      0xa3b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x0000a2e4     0x3d52 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x0000e036     0x1abb CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_info    0x0000faf1     0x4212 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.debug_info     0x00000000    0x13d0c
+ .debug_info    0x00000000      0xe8c CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj
+ .debug_info    0x00000e8c      0xf7b CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj
+ .debug_info    0x00001e07      0xbcd CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj
+ .debug_info    0x000029d4      0xd96 CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj
+ .debug_info    0x0000376a      0x846 CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj
+ .debug_info    0x00003fb0      0x2f4 CMakeFiles/angle.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000042a4      0x211 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x000044b5      0x9c9 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00004e7e      0x7af CMakeFiles/angle.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0000562d      0x174 CMakeFiles/angle.elf.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000057a1      0x248 CMakeFiles/angle.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x000059e9     0x10b2 CMakeFiles/angle.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x00006a9b      0xa09 CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x000074a4       0x22 CMakeFiles/angle.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_info    0x000074c6      0x7a8 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00007c6e      0xd8a CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x000089f8      0x84b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x00009243      0x66f CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x000098b2      0xa3b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x0000a2ed     0x3d52 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x0000e03f     0x1abb CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_info    0x0000fafa     0x4212 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
 .debug_abbrev   0x00000000     0x2db6
  .debug_abbrev  0x00000000      0x316 CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj
@@ -2778,50 +2778,50 @@ LOAD d:/clion_stm32/gcc_arm_none_eabi/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/
  .debug_line    0x0000a08c     0x1c28 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_line    0x0000bcb4     0x43f1 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_str      0x00000000     0x3f74
- .debug_str     0x00000000      0xa79 CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj
-                                0xd00 (size before relaxing)
- .debug_str     0x00000a79      0x2a7 CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj
+.debug_str      0x00000000     0x3f83
+ .debug_str     0x00000000      0xa88 CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj
+                                0xd0f (size before relaxing)
+ .debug_str     0x00000a88      0x2a7 CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj
                                 0xe3f (size before relaxing)
- .debug_str     0x00000d20      0x13f CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj
+ .debug_str     0x00000d2f      0x13f CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj
                                 0xad6 (size before relaxing)
- .debug_str     0x00000e5f       0x9a CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj
+ .debug_str     0x00000e6e       0x9a CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj
                                 0xaed (size before relaxing)
- .debug_str     0x00000ef9      0x146 CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj
+ .debug_str     0x00000f08      0x146 CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj
                                 0x661 (size before relaxing)
- .debug_str     0x0000103f       0xa4 CMakeFiles/angle.elf.dir/Core/Src/gpio.c.obj
+ .debug_str     0x0000104e       0xa4 CMakeFiles/angle.elf.dir/Core/Src/gpio.c.obj
                                 0x29d (size before relaxing)
- .debug_str     0x000010e3       0x6b CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x000010f2       0x6b CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x23f (size before relaxing)
- .debug_str     0x0000114e      0x111 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0000115d      0x111 CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                 0x983 (size before relaxing)
- .debug_str     0x0000125f      0x229 CMakeFiles/angle.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x0000126e      0x229 CMakeFiles/angle.elf.dir/Core/Src/syscalls.c.obj
                                 0x40c (size before relaxing)
- .debug_str     0x00001488       0x86 CMakeFiles/angle.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00001497       0x86 CMakeFiles/angle.elf.dir/Core/Src/sysmem.c.obj
                                 0x238 (size before relaxing)
- .debug_str     0x0000150e       0x8f CMakeFiles/angle.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x0000151d       0x8f CMakeFiles/angle.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x274 (size before relaxing)
- .debug_str     0x0000159d      0x6b3 CMakeFiles/angle.elf.dir/Core/Src/tim.c.obj
+ .debug_str     0x000015ac      0x6b3 CMakeFiles/angle.elf.dir/Core/Src/tim.c.obj
                                 0xe3a (size before relaxing)
- .debug_str     0x00001c50       0x62 CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x00001c5f       0x62 CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj
                                 0x9f1 (size before relaxing)
- .debug_str     0x00001cb2       0x47 CMakeFiles/angle.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_str     0x00001cc1       0x47 CMakeFiles/angle.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
                                  0x6d (size before relaxing)
- .debug_str     0x00001cf9      0x2a4 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00001d08      0x2a4 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x844 (size before relaxing)
- .debug_str     0x00001f9d      0x3a6 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00001fac      0x3a6 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0x8f3 (size before relaxing)
- .debug_str     0x00002343      0x250 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x00002352      0x250 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                                 0x61d (size before relaxing)
- .debug_str     0x00002593      0x112 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x000025a2      0x112 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x420 (size before relaxing)
- .debug_str     0x000026a5      0x1eb CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x000026b4      0x1eb CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x64b (size before relaxing)
- .debug_str     0x00002890      0xc8b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x0000289f      0xc8b CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                                0x165f (size before relaxing)
- .debug_str     0x0000351b      0x483 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0000352a      0x483 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                                 0xe60 (size before relaxing)
- .debug_str     0x0000399e      0x5d6 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x000039ad      0x5d6 CMakeFiles/angle.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                 0xd14 (size before relaxing)
 
 .comment        0x00000000       0x49

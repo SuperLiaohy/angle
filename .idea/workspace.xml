@@ -22,7 +22,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c499b9-aa67-4cd0-86e7-b587f3cf27af" name="Changes" comment="" />
+    <list default="true" id="73c499b9-aa67-4cd0-86e7-b587f3cf27af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Core/Own/IT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/IT.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Own/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Own/pid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/pid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +45,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -41,6 +57,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2efjd7SIZ7znZ2KVYP3VNkojaLc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,6 +73,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +83,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\blance_car\angle\Core\Own" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.angle.elf">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -100,7 +123,7 @@
       <workItem from="1710676622624" duration="1695000" />
       <workItem from="1712302639647" duration="5320000" />
       <workItem from="1712308498786" duration="959000" />
-      <workItem from="1712309621892" duration="4395000" />
+      <workItem from="1712309621892" duration="13288000" />
     </task>
     <servers />
   </component>
@@ -116,24 +139,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/main.cpp</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/motor.cpp</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/motor.cpp</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Src/motor.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/Core/Own/motor.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

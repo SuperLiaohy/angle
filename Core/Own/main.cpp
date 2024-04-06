@@ -41,7 +41,7 @@ int main(void)
     angle.d = 0.08;
 
     speed.p = 0.95;
-    speed.i = 0.6;
+    speed.i = 0.55;
     speed.d = 0;
 
     HAL_TIM_Base_Start(&htim1);

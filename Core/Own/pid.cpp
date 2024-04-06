@@ -30,7 +30,7 @@ float pid::AddPid(motor MOTOR, float target) {
  * else
  * Turn left and right
  */
-    limit(-30,target,30);
+    limit(-25,target,25);
 
     PreErr = LastErr;
     LastErr = Err;
