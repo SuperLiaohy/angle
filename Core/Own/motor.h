@@ -45,6 +45,8 @@ public:
     void SetPwm(int input);
 
     void GetPos();
+
+    void clear();
 };
 extern motor left;
 

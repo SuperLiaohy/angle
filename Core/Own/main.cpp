@@ -10,7 +10,7 @@ extern "C" {
 #include "usart.h"
 #include "gpio.h"
 #include "uart.h"
-
+#include "dma.h"
 
 #ifdef __cplusplus
 }
@@ -21,28 +21,31 @@ extern "C" {
 #include "pid.h"
 
 void SystemClock_Config(void);
-
+extern DMA_HandleTypeDef hdma_usart2_rx;
 int main(void)
 {
 
-  HAL_Init();
+    HAL_Init();
 
-  SystemClock_Config();
+    SystemClock_Config();
 
-  MX_GPIO_Init();
-  MX_TIM1_Init();
-  MX_TIM2_Init();
-
+    MX_GPIO_Init();
+    MX_DMA_Init();
+    MX_TIM1_Init();
+    MX_TIM2_Init();
     MX_USART2_UART_Init();
     MX_TIM3_Init();
-
     angle.p = 0.8;
     angle.i = 0;
     angle.d = 0.08;
 
-    speed.p = 0.95;
+    speed.p = 0.85;
     speed.i = 0.55;
     speed.d = 0;
+
+    speed_alone.p = 0.3;
+    speed_alone.i = 0.1;
+    speed_alone.d = 0;
 
     HAL_TIM_Base_Start(&htim1);
     HAL_TIM_Base_Start_IT(&htim3);
@@ -51,16 +54,13 @@ int main(void)
     HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
     HAL_TIM_Base_Start_IT(&htim2);
 
-
     print(&huart2,"666");
-//    left.front_run();
-//    left.SetPwm(1000);
 
-//    __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,1000);
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart2, (uint8_t *)bag, 50);
+    __HAL_DMA_DISABLE_IT(&hdma_usart2_rx, DMA_IT_HT);
 
   while (1)
   {
-//      print(&huart2,"666");
 
   }
 

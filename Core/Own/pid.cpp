@@ -12,6 +12,13 @@ void limit(float min,float &m,float max){
     }
 }
 
+void pid::clear() {
+    clean = true;
+    PItem = 0;
+    IItem = 0;
+    DItem = 0;
+}
+
 float pid::PosPid(motor MOTOR, float target) {
 
     PItem = target - MOTOR.real;
@@ -24,6 +31,12 @@ float pid::AddPid(motor MOTOR, float target) {
     static float PreErr = 0;
     static float LastErr = 0;
     static float Err = 0;
+    if (clean){
+        PreErr = 0;
+        LastErr = 0;
+        Err = 0;
+        clean = false;
+    }
 /*
  * limit speed
  * can't too small
@@ -45,5 +58,15 @@ float pid::AddPid(motor MOTOR, float target) {
     return p * PItem + i * IItem + d * DItem;
 }
 
+float pid::SpeedPid(motor MOTOR, float target) {
+    PItem = target - MOTOR.speed;
+    IItem += PItem;
+    DItem = MOTOR.real - MOTOR.last_pos;
+
+    return p * PItem + i * IItem + d * DItem;
+}
+
 pid angle;
 pid speed;
+
+pid speed_alone;
