@@ -22,46 +22,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c499b9-aa67-4cd0-86e7-b587f3cf27af" name="Changes" comment="减少振荡">
+    <list default="true" id="73c499b9-aa67-4cd0-86e7-b587f3cf27af" name="Changes" comment="串口dma,一定速度,并增加指定">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/IT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/IT.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Own/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/motor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/motor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/motor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/pid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/pid.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/pid.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/pid.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Own/uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Own/uart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angle.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/angle.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-645924deb5169960c966.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-05T15-37-37-0013.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-angle.elf-Debug-23be925d289ad97d1f5b.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/IT.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/motor.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/pid.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/IT.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/motor.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/pid.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/stm32f1xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/angle.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/angle.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/angle.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +143,7 @@
       <workItem from="1712576913672" duration="147000" />
       <workItem from="1712647935359" duration="416000" />
       <workItem from="1712675551532" duration="3799000" />
-      <workItem from="1712746136329" duration="6166000" />
+      <workItem from="1712746136329" duration="9327000" />
     </task>
     <task id="LOCAL-00001" summary="减少振荡">
       <option name="closed" value="true" />
@@ -183,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712371745566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="串口dma,一定速度,并增加指定">
+      <option name="closed" value="true" />
+      <created>1712752492981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712752492981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="减少振荡" />
-    <option name="LAST_COMMIT_MESSAGE" value="减少振荡" />
+    <MESSAGE value="串口dma,一定速度,并增加指定" />
+    <option name="LAST_COMMIT_MESSAGE" value="串口dma,一定速度,并增加指定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -56,3 +56,11 @@
 78	219	7344551689201133	angle.elf	7ba842f5f692bb28
 0	81	7344554453252678	CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj	f39dad2536ee6123
 81	232	7344554454355332	angle.elf	7ba842f5f692bb28
+1	92	7344559780582966	CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj	f39dad2536ee6123
+4	92	7344559780582966	CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj	1eb71868673ee104
+92	248	7344559781782568	angle.elf	7ba842f5f692bb28
+5	73	7344561149068176	CMakeFiles/angle.elf.dir/Core/Own/uart.c.obj	1eb71868673ee104
+1	81	7344561149144270	CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj	f39dad2536ee6123
+81	215	7344561150104935	angle.elf	7ba842f5f692bb28
+1	88	7344561666952952	CMakeFiles/angle.elf.dir/Core/Own/main.cpp.obj	f39dad2536ee6123
+88	231	7344561667942155	angle.elf	7ba842f5f692bb28
